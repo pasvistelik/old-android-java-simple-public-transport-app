@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:background="#60f0"
+        android:id="@+id/textViewHello" />
+    <fragment
+        android:id="@+id/listFragment2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.example.andrey.myapplication.MyFragment"
+        tools:layout="@layout/fragment_results" />
+</LinearLayout>
